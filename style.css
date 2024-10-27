@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --smoky-black: #0e0706;
+  --dark-green: #2c3f27;
+  --fawn: #f6b379;
+  --bone: #ede4d4;
+  --dartmouth-green: #11692a;
+  --tea-green: #d7f2ba;
+  --lapis-lazuli: #386280;
+}
+
+h1 {
+  color: var(--dartmouth-green);
+  font-family: "Poppins";
+  font-size: 2rem;
+}
+
+.header {
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 5vh;
+}
+
+::selection {
+  background-color: var(--dartmouth-green);
+  color: var(--bone);
+}
+
+body {
+  font-size: larger;
+  font-family: "Ubuntu Mono", Helvetica, sans-serif;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: var(--bone);
+  background-image: url("./assets/cartographer.png");
+  background-repeat: repeat;
+  background-blend-mode: darken;
+}
+
+.assets {
+  height: auto;
+  width: 100%;
+}
+
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--smoky-black);
+  padding: 2% 1%;
+  row-gap: 1em;
+  border-width: 4px;
+  border-color: var(--fawn);
+  border-style: solid;
+  border-radius: 7px;
+  color: var(--fawn);
+  width: 50%;
+  height: fit-content;
+}
+
+a {
+  text-decoration: none;
+  color: var(--lapis-lazuli);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.dual-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.block2 {
+  padding-left: 2vw;
+  float: right;
+}
+
+figcaption a {
+  color: var(--tea-green);
+}
+
